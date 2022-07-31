@@ -19,11 +19,13 @@ a {
 }
 
 header {
+    
     height: 200px;
     padding: 20px 0;
 }
 
 .center {
+    
     display: flex;
     flex-wrap: wrap;
     max-width: 1280px;
@@ -134,8 +136,8 @@ section.sobre {
 }
 
 .texto-menu {
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: -70px;
+    margin-bottom: 50px;
     text-align: center;
     color: #363636;
 }
@@ -145,17 +147,23 @@ section.sobre {
     justify-content: space-around;
     align-items: center;
     width: 1365px;
-    height: 400px;
+    height: auto;
+    
 }
 
 .card-shake {
+    
     text-align: center;
     justify-content: center;
-    width: 210px;
+    width: 215px;
     height: auto;
     padding: 15px 20px;
     border-radius: 10px;
     background-color: rgba(230, 219, 219, 0.2);
+}
+
+.gelato {
+    width: 150px;
 }
 
 
